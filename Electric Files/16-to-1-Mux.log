@@ -1,0 +1,62 @@
+Circuit: *** SPICE deck for cell 16-to-1-Mux{lay} from library 16-to-1-Mux
+
+R30: both pins shorted together -- ignoring.
+R141: both pins shorted together -- ignoring.
+R253: both pins shorted together -- ignoring.
+R390: both pins shorted together -- ignoring.
+R421: both pins shorted together -- ignoring.
+R474: both pins shorted together -- ignoring.
+R515: both pins shorted together -- ignoring.
+R690: both pins shorted together -- ignoring.
+R801: both pins shorted together -- ignoring.
+R913: both pins shorted together -- ignoring.
+R1050: both pins shorted together -- ignoring.
+R1081: both pins shorted together -- ignoring.
+R1134: both pins shorted together -- ignoring.
+R1175: both pins shorted together -- ignoring.
+R1350: both pins shorted together -- ignoring.
+R1461: both pins shorted together -- ignoring.
+R1573: both pins shorted together -- ignoring.
+R1710: both pins shorted together -- ignoring.
+R1741: both pins shorted together -- ignoring.
+R1794: both pins shorted together -- ignoring.
+R1835: both pins shorted together -- ignoring.
+R2010: both pins shorted together -- ignoring.
+R2121: both pins shorted together -- ignoring.
+R2233: both pins shorted together -- ignoring.
+R2370: both pins shorted together -- ignoring.
+R2401: both pins shorted together -- ignoring.
+R2454: both pins shorted together -- ignoring.
+R2497: both pins shorted together -- ignoring.
+R2672: both pins shorted together -- ignoring.
+R2783: both pins shorted together -- ignoring.
+R2895: both pins shorted together -- ignoring.
+R3032: both pins shorted together -- ignoring.
+R3063: both pins shorted together -- ignoring.
+R3116: both pins shorted together -- ignoring.
+R3151: both pins shorted together -- ignoring.
+Vgnd: both pins shorted together -- ignoring.
+Ignoring BSIM parameter XL
+Ignoring BSIM parameter XW
+Ignoring BSIM parameter XL
+Ignoring BSIM parameter XW
+Direct Newton iteration for .op point succeeded.
+
+Date: Mon Nov 11 20:46:28 2019
+Total elapsed time: 13.635 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 13099
+traniter = 13077
+tranpoints = 4429
+accept = 3392
+rejected = 1037
+matrix size = 3284
+fillins = 6412
+solver = Normal
+Thread vector: 553.8/413.5[4] 94.1/44.3[4] 231.4/49.5[4] 33.6/76.7[1]  2592/500
+Matrix Compiler1:   24906 opcodes  318.2/[138.6]/189.9
+Matrix Compiler2: 353.48 KB object code size  78.4/90.1/[68.8]
+

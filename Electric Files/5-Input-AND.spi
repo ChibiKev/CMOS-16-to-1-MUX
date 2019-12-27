@@ -1,0 +1,51 @@
+*** SPICE deck for cell 5-Input-AND{sch} from library Homework_5
+*** Created on Wed Nov 13, 2019 12:32:53
+*** Last revised on Wed Nov 13, 2019 13:42:59
+*** Written on Wed Nov 13, 2019 13:43:05 by Electric VLSI Design System, version 9.07
+*** Layout tech: mocmos, foundry MOSIS
+*** UC SPICE *** , MIN_RESIST 4.0, MIN_CAPAC 0.1FF
+
+*** SUBCIRCUIT Homework_5__Inverter FROM CELL Homework_5:Inverter{sch}
+.SUBCKT Homework_5__Inverter In Vout
+** GLOBAL gnd
+** GLOBAL vdd
+Mnmos@1 Vout In gnd gnd NMOS L=0.35U W=0.875U
+Mpmos@1 vdd In Vout vdd PMOS L=0.35U W=1.75U
+.ENDS Homework_5__Inverter
+
+.global gnd vdd
+
+*** TOP LEVEL CELL: Homework_5:5-Input-AND{sch}
+Mnmos@2 net@44 Clock gnd gnd NMOS L=0.35U W=0.875U
+Mnmos@5 net@50 Clock gnd gnd NMOS L=0.35U W=0.875U
+Mnmos@8 net@56 Clock gnd gnd NMOS L=0.35U W=0.875U
+Mnmos@11 net@62 Clock gnd gnd NMOS L=0.35U W=0.875U
+Mpmos@0 vdd Clock net@41 vdd PMOS L=0.35U W=1.75U
+Mpmos@1 vdd Clock net@47 vdd PMOS L=0.35U W=1.75U
+Mpmos@2 vdd Clock net@53 vdd PMOS L=0.35U W=1.75U
+Mpmos@3 vdd Clock net@59 vdd PMOS L=0.35U W=1.75U
+Mpmos@4 net@41 A net@44 vdd PMOS L=0.35U W=1.75U
+Mpmos@14 net@44 B net@41 vdd PMOS L=0.35U W=1.75U
+Mpmos@15 net@47 net@68 net@50 vdd PMOS L=0.35U W=1.75U
+Mpmos@16 net@50 C net@47 vdd PMOS L=0.35U W=1.75U
+Mpmos@17 net@53 net@91 net@56 vdd PMOS L=0.35U W=1.75U
+Mpmos@18 net@56 D net@53 vdd PMOS L=0.35U W=1.75U
+Mpmos@19 net@59 net@77 net@62 vdd PMOS L=0.35U W=1.75U
+Mpmos@20 net@62 E net@59 vdd PMOS L=0.35U W=1.75U
+XInverter@1 net@44 net@68 Homework_5__Inverter
+XInverter@2 net@50 net@91 Homework_5__Inverter
+XInverter@3 net@62 Vout Homework_5__Inverter
+XInverter@4 net@56 net@77 Homework_5__Inverter
+
+* Spice Code nodes in cell cell 'Homework_5:5-Input-AND{sch}'
+VDD VDD 0 DC 3.3
+VGND GND 0 DC 0
+Vin A 0 PULSE (3.3 0 0n 0.1n 0.1n 20n 40n)
+Vin2 B 0 PULSE (3.3 0 0n 0.1n 0.1n 40n 80n)
+Vin3 C 0 PULSE (3.3 0 0n 0.1n 0.1n 80n 160n)
+Vin4 D 0 PULSE (3.3 0 0n 0.1n 0.1n 160n 320n)
+Vin5 E 0 PULSE (3.3 0 0n 0.1n 0.1n 320n 640n)
+Vin6 Clock 0 PULSE (3.3 0 0ns 0.1n 0.1n 10n 20n)
+.TRAN 0 640n
+.include C:\Users\kille\Desktop\Electric\C5_models.txt
+.END

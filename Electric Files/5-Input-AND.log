@@ -1,0 +1,31 @@
+Circuit: *** SPICE deck for cell 5-Input-AND{sch} from library Homework_5
+
+Vgnd: both pins shorted together -- ignoring.
+Ignoring BSIM parameter XL
+Ignoring BSIM parameter XW
+Ignoring BSIM parameter XL
+Ignoring BSIM parameter XW
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Direct Newton iteration for .op point succeeded.
+
+Date: Wed Nov 13 13:43:08 2019
+Total elapsed time: 1.403 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 13292
+traniter = 13254
+tranpoints = 4493
+accept = 3643
+rejected = 850
+matrix size = 26
+fillins = 0
+solver = Normal
+Thread vector: 24.7/21.7[2] 2.8/4.1[1] 0.9/1.9[1] 0.3/2.3[1]  2592/500
+Matrix Compiler1: 1.62 KB object code size  0.4/0.2/[0.2]
+Matrix Compiler2: off  [0.3]/0.6/0.4
+

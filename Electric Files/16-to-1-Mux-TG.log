@@ -1,0 +1,67 @@
+Circuit: *** SPICE deck for cell 16-to-1-Mux-TG{lay} from library 16-to-1-Mux
+
+R56: both pins shorted together -- ignoring.
+R105: both pins shorted together -- ignoring.
+R106: both pins shorted together -- ignoring.
+R148: both pins shorted together -- ignoring.
+R149: both pins shorted together -- ignoring.
+R150: both pins shorted together -- ignoring.
+R215: both pins shorted together -- ignoring.
+R401: both pins shorted together -- ignoring.
+R488: both pins shorted together -- ignoring.
+R537: both pins shorted together -- ignoring.
+R538: both pins shorted together -- ignoring.
+R580: both pins shorted together -- ignoring.
+R581: both pins shorted together -- ignoring.
+R582: both pins shorted together -- ignoring.
+R647: both pins shorted together -- ignoring.
+R833: both pins shorted together -- ignoring.
+R864: both pins shorted together -- ignoring.
+R865: both pins shorted together -- ignoring.
+R930: both pins shorted together -- ignoring.
+R1116: both pins shorted together -- ignoring.
+R1203: both pins shorted together -- ignoring.
+R1252: both pins shorted together -- ignoring.
+R1253: both pins shorted together -- ignoring.
+R1295: both pins shorted together -- ignoring.
+R1296: both pins shorted together -- ignoring.
+R1297: both pins shorted together -- ignoring.
+R1362: both pins shorted together -- ignoring.
+R1548: both pins shorted together -- ignoring.
+R1635: both pins shorted together -- ignoring.
+R1684: both pins shorted together -- ignoring.
+R1685: both pins shorted together -- ignoring.
+R1727: both pins shorted together -- ignoring.
+R1728: both pins shorted together -- ignoring.
+R1729: both pins shorted together -- ignoring.
+R1730: both pins shorted together -- ignoring.
+R1795: both pins shorted together -- ignoring.
+R1980: both pins shorted together -- ignoring.
+R2067: both pins shorted together -- ignoring.
+R2116: both pins shorted together -- ignoring.
+R2117: both pins shorted together -- ignoring.
+Vgnd: both pins shorted together -- ignoring.
+Ignoring BSIM parameter XL
+Ignoring BSIM parameter XW
+Ignoring BSIM parameter XL
+Ignoring BSIM parameter XW
+Direct Newton iteration for .op point succeeded.
+
+Date: Wed Nov 13 12:05:36 2019
+Total elapsed time: 5.576 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 6705
+traniter = 6694
+tranpoints = 2255
+accept = 1909
+rejected = 346
+matrix size = 2099
+fillins = 4112
+solver = Normal
+Thread vector: 91.6/43.9[4] 32.0/26.6[3] 2723.1/4.4[4] 18.0/11.2[4]  2592/500
+Matrix Compiler1: 279.77 KB object code size  142.1/72.5/[44.8]
+Matrix Compiler2: 224.51 KB object code size  48.1/52.9/[27.5]
+

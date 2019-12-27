@@ -1,0 +1,9 @@
+Circuit: *** SPICE deck for cell 4-to-1-Mux{lay} from library 16-to-1-Mux
+
+R111: both pins shorted together -- ignoring.
+R222: both pins shorted together -- ignoring.
+R334: both pins shorted together -- ignoring.
+R471: both pins shorted together -- ignoring.
+R502: both pins shorted together -- ignoring.
+R555: both pins shorted together -- ignoring.
+R587: both pins shorted together -- ignoring.
